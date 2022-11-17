@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: url('../images/backdrop.png');
+    background-image: url('../images/backdrop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,14 +27,7 @@ header {
     width: 100%;
     height: 150px;
     border-bottom: 2px solid hsl(80, 18%, 84%);
-}
-
-header img {
-    position: absolute;
-    width: 125px;
-    transform: translate(-50%, -50%);
-    left: 650px;
-    top: 75px;
+    box-shadow: hsl(0, 0%, 0%) 0 5px 5px;
 }
 
 header h1 {
@@ -200,6 +193,7 @@ footer {
     width: 100%;
     text-align: center;
     background-color: hsla(249, 49%, 15%, 0.9);
+    box-shadow: hsl(0, 0%, 0%) 0 5px 5px;
 }
 
 footer h3 {
