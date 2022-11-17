@@ -1,46 +1,3 @@
-/* Universal Styles */
-
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-body {
-    background-image: url('../images/backdrop.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Fonts */
-
-@font-face {
-    font-family: Monoton;
-    src: url('../fonts/Monoton-Regular.ttf') format('truetype');
-    font-family: Oswald;
-    src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
-}
-
-/* Header */
-
-header {
-    background-color: hsla(249, 49%, 15%, 0.9);
-    width: 100%;
-    height: 150px;
-    border-bottom: 2px solid hsl(80, 18%, 84%);
-    box-shadow: hsl(0, 0%, 0%) 0 5px 5px;
-}
-
-header h1 {
-    text-align: center;
-    line-height: 150px;
-    font-size: 2rem;
-    word-spacing: 15px;
-    font-family: Monoton, sans-serif;
-    color: hsl(80, 18%, 84%);
-    text-shadow: hsl(0, 0%, 0%) 5px 5px 2px;
-    text-transform: uppercase;
-}
-
 /* Index Container */
 
 .index-container {
@@ -182,24 +139,3 @@ p a:hover {
     color:hsl(80, 18%, 24%);
 }
 
-/* Footer */
-
-footer {
-    border-top: 2px solid hsl(80, 18%, 84%);
-    border-bottom: 2px solid hsl(80, 18%, 84%);
-    position: absolute;
-    height: 40px;
-    bottom: 50px;
-    width: 100%;
-    text-align: center;
-    background-color: hsla(249, 49%, 15%, 0.9);
-    box-shadow: hsl(0, 0%, 0%) 0 5px 5px;
-}
-
-footer h3 {
-    font-family: Oswald, sans-serif;
-    color: hsl(80, 18%, 84%);
-    font-size: 1.2rem;
-    line-height: 35px;
-    text-shadow: hsl(0, 0%, 0%) 5px 5px 2px;
-}
