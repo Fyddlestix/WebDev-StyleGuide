@@ -66,18 +66,18 @@ li {
 
 li a {
     text-decoration: none;
-    background-color: hsl(256, 37%, 20%);
+    background-color: hsl(80, 18%, 84%);
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 10px;
-    color:hsl(80, 18%, 84%);
+    color: hsl(256, 37%, 10%);
     transition: color 250ms, background-color 250ms;
 }
 
 li a:hover {
-    background-color: hsl(80, 18%, 84%);
-    color:hsl(256, 37%, 10%);
+    background-color: hsl(256, 37%, 10%);
+    color:hsl(80, 18%, 84%)
 }
 
 h2 {
