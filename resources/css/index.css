@@ -1,0 +1,224 @@
+/* Universal Styles */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(256, 37%, 10%);
+    background-image: url('../images/backdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: Monoton;
+    src: url('../fonts/Monoton-Regular.ttf') format('truetype');
+    font-family: Oswald;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Header */
+
+header {
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid hsl(80, 18%, 84%);
+}
+
+header img {
+    position: absolute;
+    width: 125px;
+    transform: translate(-50%, -50%);
+    left: 650px;
+    top: 75px;
+}
+
+header h1 {
+    text-align: center;
+    line-height: 150px;
+    font-size: 2rem;
+    font-family: Monoton, cursive;
+    word-spacing: 15px;
+    color: hsl(80, 18%, 84%);
+    text-shadow: hsl(0, 0%, 0%) 5px 5px 2px;
+}
+
+/* Index Container */
+
+.index-container {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: 300px;
+    left: 450px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(0px);
+    box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
+}
+
+/* Index Navigation */
+
+li {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 60px;
+}
+
+li a {
+    text-decoration: none;
+    background-color: hsl(256, 37%, 20%);
+    box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color:hsl(80, 18%, 84%);
+    transition: color 250ms ease-in, background-color 250ms ease-in;
+}
+
+li a:hover {
+    background-color: hsl(80, 18%, 84%);
+    color:hsl(256, 37%, 10%);
+}
+
+.color-info-box {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    left: 800px;
+    top: 225px;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    transition: width 250ms ease-out, height 250ms ease-out, visibility 250ms;
+}
+
+.color-flyout:hover + .color-info-box {
+    width: 250px;
+    height: 450px;
+    visibility: visible;
+}
+
+.color-flyout:hover + .color-info-box h2 {
+    font-size: 1.5rem;
+}
+
+.font-info-box {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    left: 800px;
+    top: 225px;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    transition: width 250ms ease-out, height 250ms ease-out, visibility 250ms;
+}
+
+.font-flyout:hover + .font-info-box {
+    width: 250px;
+    height: 450px;
+    visibility: visible;
+}
+
+.font-flyout:hover + .font-info-box h2 {
+    font-size: 1.5rem;
+}
+
+.text-info-box {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    left: 800px;
+    top: 225px;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    transition: width 250ms ease-out, height 250ms ease-out, visibility 250ms;
+}
+
+.text-flyout:hover + .text-info-box {
+    width: 250px;
+    height: 450px;
+    visibility: visible;
+}
+
+.text-flyout:hover + .text-info-box h2 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: hsl(80, 18%, 84%);
+    line-height: 2;
+    font-family: Oswald, sans-serif;
+    font-size: 0;
+    transition: font-size 250ms;
+    text-shadow: hsl(0, 0%, 0%) 5px 5px 2px;
+}
+
+p {
+    font-family: Oswald, sans-serif;
+    color:hsl(80, 18%, 84%);
+    text-shadow:hsl(0, 0%, 0%) 5px 5px 2px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 3;
+}
+
+p a {
+    color: hsl(80, 18%, 84%);
+    transition: color 240ms;
+}
+
+p a:hover {
+    color:hsl(80, 18%, 24%);
+}
+
+/* Footer */
+
+footer {
+    border-top: 2px solid hsl(80, 18%, 84%);
+    border-bottom: 2px solid hsl(80, 18%, 84%);
+    position: absolute;
+    height: 40px;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: hsla(249, 49%, 15%, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+footer h3 {
+    font-family: Oswald, sans-serif;
+    color: hsl(80, 18%, 84%);
+    font-size: 1.2rem;
+    line-height: 35px;
+    text-shadow: hsl(0, 0%, 0%) 5px 5px 2px;
+}
