@@ -12,6 +12,10 @@
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
 }
 
+.index-container p {
+    font-family: Oswald;
+}
+
 /* Index Navigation */
 
 li {
@@ -49,7 +53,7 @@ h2 {
 .color-info-box {
     position: absolute;
     left: 800px;
-    top: 225px;
+    top: 150px;
     transform: translate(-50%, -50%);
     border: 2px solid hsl(80, 18%, 84%);
     border-radius: 10px;
@@ -74,7 +78,7 @@ h2 {
 .font-info-box {
     position: absolute;
     left: 800px;
-    top: 225px;
+    top: 150px;
     transform: translate(-50%, -50%);
     border: 2px solid hsl(80, 18%, 84%);
     border-radius: 10px;
@@ -99,7 +103,7 @@ h2 {
 .text-info-box {
     position: absolute;
     left: 800px;
-    top: 225px;
+    top: 150px;
     transform: translate(-50%, -50%);
     border: 2px solid hsl(80, 18%, 84%);
     border-radius: 10px;
