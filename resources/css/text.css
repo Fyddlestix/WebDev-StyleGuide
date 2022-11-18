@@ -11,3 +11,51 @@
     background-color: hsla(249, 49%, 15%, 0.9);
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
 }
+
+#h1-style {
+    position: relative;
+    color: hsl(80, 18%, 84%);
+    font-size: 1.6rem;
+    font-family: Monoton, sans-serif;
+    word-spacing: 15px;
+    padding: 10px;
+    text-align: left;
+    left: 10px;
+}
+
+.style-ul {
+    position: relative;
+    list-style: square;
+    left: 20px;
+    color: hsl(80, 18%, 84%);
+    
+}
+
+.style-ul li {
+    text-align: left;
+    line-height: 0.5;
+    margin: 15px;
+    font-size: 1.1rem;
+}
+
+#h2-style {
+    position: relative;
+    top: 30px;
+    left: -10px;
+    color:hsl(80, 18%, 84%);
+    font-family: Oswald, sans-serif;
+    text-align: left;
+    font-size: 1.125rem;
+    padding: 10px;
+}
+
+#p-style {
+    position: relative;
+    top: 30px;
+    left: -10px;
+    color:hsl(80, 18%, 84%);
+    font-family: Oswald, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+}
