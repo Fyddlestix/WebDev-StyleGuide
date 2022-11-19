@@ -14,10 +14,10 @@
 
 .color-one {
     position: absolute;
-    border: 2px solid hsl(80, 18%, 84%);
+    border: 2px solid hsl(0, 0%, 0%);
     border-radius: 20px 0 0 0;
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
-    background-color: hsl(359, 64%, 49%);
+    background-color: hsl(80, 18%, 84%);
     width: 250px;
     height: 150px;
     left: 100px;
@@ -29,7 +29,7 @@
     border: 2px solid hsl(80, 18%, 84%);
     border-radius: 0 20px 0 0;
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
-    background-color: hsl(93, 42%, 39%);
+    background-color: hsl(249, 49%, 15%);
     width: 250px;
     height: 150px;
     right: 100px;
@@ -41,7 +41,7 @@
     border: 2px solid hsl(80, 18%, 84%);
     border-radius: 0 0 0 10px;
     box-shadow: hsl(0, 0%, 0%) 5px 5px 5px;
-    background-color: hsl(190, 100%, 40%);
+    background-color: hsl(256, 37%, 20%);
     width: 250px;
     height: 150px;
     left: 100px;
@@ -60,10 +60,16 @@
     top: 250px;
 }
 
-.color-data {
+.color-data-light {
     font-family: Oswald, sans-serif;
     line-height: 2;
     color: hsl(0, 0%, 0%);
+}
+
+.color-data {
+    font-family: Oswald, sans-serif;
+    line-height: 2;
+    color: hsl(80, 18%, 84%);
 }
 
 span {
